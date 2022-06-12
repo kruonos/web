@@ -213,17 +213,17 @@ header {
     transition: color 1s;
 }
   
-  /* Grid styles -------------------------------------------------*/
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 30px;
-  }
-  
-  
+ 
   /* Generic styles ----------------------------------------------*/
   body {
-    font-family: 'Quicksand', sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  header {
+   padding: 10px;
+   background-color: #000000;
   }
   
   header {
