@@ -416,6 +416,7 @@ header {
     border-radius: .5rem;
     box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
     margin-left: 3.2rem;
+    cursor: pointer;
 }
 
 .card:hover .card-info {
