@@ -1,0 +1,6 @@
+{
+  "type": "aiExtract",
+  "title": "AI Extract",
+  "inputs": { "schema": "json" },
+  "outputs": { "data": "json" }
+}

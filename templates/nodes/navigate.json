@@ -1,0 +1,6 @@
+{
+  "type": "navigate",
+  "title": "Navigate",
+  "inputs": { "url": "string" },
+  "outputs": { "page": "any" }
+}
