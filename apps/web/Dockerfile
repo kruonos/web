@@ -9,6 +9,7 @@ RUN corepack enable && pnpm install
 
 # Copy the full workspace and build the web package
 COPY . .
+RUN pnpm install --filter @scraper/web
 WORKDIR /app/apps/web
 RUN pnpm build
 
