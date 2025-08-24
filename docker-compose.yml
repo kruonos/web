@@ -18,7 +18,9 @@ services:
     volumes:
       - redisdata:/data
   api:
-    build: ./apps/api
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
     command: pnpm start
     environment:
       DATABASE_URL: postgres://postgres:postgres@postgres:5432/scraper
@@ -29,7 +31,9 @@ services:
     ports:
       - '3001:3001'
   web:
-    build: ./apps/web
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
     environment:
       NEXT_PUBLIC_API_URL: http://localhost:3001
     depends_on:
@@ -37,7 +41,9 @@ services:
     ports:
       - '3000:3000'
   worker:
-    build: ./apps/worker
+    build:
+      context: .
+      dockerfile: apps/worker/Dockerfile
     command: pnpm start
     environment:
       DATABASE_URL: postgres://postgres:postgres@postgres:5432/scraper
