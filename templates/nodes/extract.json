@@ -1,0 +1,6 @@
+{
+  "type": "extract",
+  "title": "Extract",
+  "inputs": { "selector": "string" },
+  "outputs": { "text": "string" }
+}

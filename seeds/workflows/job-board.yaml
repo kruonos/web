@@ -1,0 +1,5 @@
+id: job-board-example
+name: Job Board
+steps:
+  - type: httpRequest
+    url: https://example.com/jobs

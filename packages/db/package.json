@@ -1,0 +1,16 @@
+{
+  "name": "@scraper/db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "prisma generate",
+    "dev": "prisma migrate dev --name init",
+    "lint": "echo 'lint placeholder'",
+    "test": "echo 'no tests'"
+  },
+  "dependencies": {
+    "prisma": "^5.13.0",
+    "@prisma/client": "^5.13.0"
+  }
+}

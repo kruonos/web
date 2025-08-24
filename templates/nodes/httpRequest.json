@@ -1,0 +1,6 @@
+{
+  "type": "httpRequest",
+  "title": "HTTP Request",
+  "inputs": { "url": "string" },
+  "outputs": { "body": "string", "status": "number" }
+}

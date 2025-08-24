@@ -1,0 +1,6 @@
+{
+  "type": "store",
+  "title": "Store",
+  "inputs": { "destination": "string", "data": "json" },
+  "outputs": { }
+}

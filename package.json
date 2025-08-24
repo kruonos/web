@@ -1,0 +1,16 @@
+{
+  "name": "scraper-platform",
+  "private": true,
+  "packageManager": "pnpm@10.5.2",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "lint": "pnpm -r lint",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^1.5.0",
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,5 @@
+id: ecommerce-example
+name: Ecommerce Price Tracker
+steps:
+  - type: httpRequest
+    url: https://example.com/products

@@ -1,0 +1,5 @@
+id: news-example
+name: News Headlines
+steps:
+  - type: httpRequest
+    url: https://example.com/news
