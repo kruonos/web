@@ -9,6 +9,7 @@ RUN corepack enable && pnpm install
 
 # Copy the full workspace and build the API package
 COPY . .
+RUN pnpm install --filter @scraper/api
 WORKDIR /app/apps/api
 RUN pnpm build
 
